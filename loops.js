@@ -51,7 +51,7 @@ do {
   //int++;
   num++;
 }
-while (num < int)
+while (num <= int)
 	//incrementVariable(int);
 	//return int;
 }
