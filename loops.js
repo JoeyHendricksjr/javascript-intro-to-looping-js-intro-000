@@ -26,10 +26,10 @@ function whileLoop(num) {
 //   } while (array.length > -1 && maybeTrue());
 //     return array;
 // }
-function incrementVariable(i) {
-  i = i + 1;
-  return i;
-}
+// function incrementVariable(i) {
+//   i = i + 1;
+//   return i;
+// }
 // function doWhileLoop(int) {
 // do {
 //   console.log('I run once regardless');
