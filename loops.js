@@ -55,4 +55,4 @@ while (num < int)
 	//incrementVariable(int);
 	//return int;
 }
-doWhileLoop(7);
+doWhileLoop(11);
