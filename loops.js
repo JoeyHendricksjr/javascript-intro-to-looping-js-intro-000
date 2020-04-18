@@ -50,7 +50,7 @@ do {
   //console.log(incrementVariable(int));
   //int++;
   num++;
-} 
+}
 while (num < int)
 	//incrementVariable(int);
 	//return int;
