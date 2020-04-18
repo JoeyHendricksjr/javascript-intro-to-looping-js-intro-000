@@ -30,10 +30,29 @@ function incrementVariable(i) {
   i = i + 1;
   return i;
 }
+// function doWhileLoop(int) {
+// do {
+//   console.log('I run once regardless');
+// }
+// while (incrementVariable(int) < int)
+// }
+// doWhileLoop(7);
+num = 0;
 function doWhileLoop(int) {
 do {
-  console.log('I run once regardless');
-}
-while (incrementVariable(int) < int)
+  //incrementVariable(int);
+  //console.log('I run once regardless');
+  if(num != 0) {
+  	console.log(`I have run ${num} times`);
+  } else if(num === 0) {
+  	console.log('I run once regardless');
+  }
+  //console.log(incrementVariable(int));
+  //int++;
+  num++;
+} 
+while (num < int)
+	//incrementVariable(int);
+	//return int;
 }
 doWhileLoop(7);
